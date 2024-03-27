@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header flex-center">
+      <img src="./images/logo.jpeg" class="logo" alt="Logo" />
+      <button class="menu flex-center">
+        <span class="menu__burger"></span>
+        <span class="menu__text">Меню</span>
+      </button>
+      <button class="search">
+        <h6 class="search__title">Название запроса</h6>
+        <span class="search__close"></span>
+        <span class="search__icon"></span>
+      </button>
+      <span class="eva--bell-outline"></span>
+      <hr class="vertical-line little" />
+      <span class="gg--heart big"></span>
+      <button class="basket">
+        <span class="eva--shopping-cart-outline blue"></span>
+        <span class="basket__text">0 шт.</span>
+      </button>
+      <div class="user">
+        <img src="./images/user.png" class="user__img" alt="User" />
+        <h6 class="user__name text-decoration">Ермаков Е.</h6>
+        <span class="user__down-line"></span>
+      </div>
+    </header>
+    <hr class="horizontal-line-long" />
+    <main class="main">
+      <div class="container-header flex-between">
+        <div class="catalog">
+          <span class="catalog__text">Каталог</span>
+          <span class="catalog__text">/</span>
+          <span class="catalog__text">Обувь</span>
+          <span class="catalog__text">/</span>
+          <span class="catalog__text">Кроссовки</span>
+          <span class="catalog__text">/</span>
+          <span class="catalog__text">Беговые</span>
+        </div>
+        <h2 class="container-header__tittle">
+          Кроссовки мужские Skechers Sunny Dale
+        </h2>
+      </div>
+      <article class="content">
+        <div class="container__images flex-between">
+          <img src="./images/card.png" class="container__image" alt="Product" />
+          <div class="container__slider">
+            <button class="button-left">
+              <span class="eva--arrow-ios-back-outline"></span>
+            </button>
+            <div class="photo-slider">
+              <img
+                src="./images/ph1.png"
+                class="photo-slider__img"
+                alt="Product little"
+              />
+              <img
+                src="./images/ph2.png"
+                class="photo-slider__img"
+                alt="Product little"
+              />
+              <img
+                src="./images/ph3.png"
+                class="photo-slider__img"
+                alt="Product little"
+              />
+              <img
+                src="./images/ph4.png"
+                class="photo-slider__img"
+                alt="Product little"
+              />
+            </div>
+            <button class="button-right">
+              <span class="eva--arrow-ios-forward-outline"></span>
+            </button>
+          </div>
+        </div>
+        <div class="information">
+          <div class="area">
+            <div class="buy-form flex-column">
+              <div class="info flex-between">
+                <div class="info-price flex-between">
+                  <p class="info-text">166 534.00 цена без скидки</p>
+                  <div class="price-box">
+                    <h1 class="price text-decoration">122 566 ₽</h1>
+                    <div class="sale-box flex-center">
+                      <h5 class="sale">-15%</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-col">
+                  <div class="col flex-center">
+                    <h6 class="col-text">12 штук в уп.</h6>
+                  </div>
+                  <div class="order">
+                    <div class="toggle">
+                      <div class="toggle__mark"></div>
+                    </div>
+                    <span class="text-decoration order__text"
+                      >Заказ упаковкой</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <hr class="horizontal-line" />
+              <div class="delivery">
+                <div class="delivery-box">
+                  <h6 class="delivery-box__name">Завтра</h6>
+                  <p class="delivery-box__description">Доставка</p>
+                </div>
+                <div class="delivery-box flex-column">
+                  <h6 class="delivery-box__name">7 шт.</h6>
+                  <p class="delivery-box__description">Тарасовка</p>
+                </div>
+                <div class="delivery-box">
+                  <h6 class="delivery-box__name text-decoration">7 шт.</h6>
+                  <p class="delivery-box__description">Тарасовка</p>
+                </div>
+              </div>
+              <div class="buy-panel">
+                <button class="to-buy flex-center">
+                  <span class="eva--shopping-cart-outline"></span>
+                  <span class="to-buy__text">В корзину</span>
+                </button>
+                <button class="like">
+                  <span class="gg--heart"></span>
+                </button>
+              </div>
+            </div>
+            <hr class="vertical-line" />
+            <section class="characteristics flex-column">
+              <h4 class="characteristics__title text-decoration">
+                Характеристики
+              </h4>
+              <div class="characteristics__box flex-column">
+                <div class="characteristics__string">
+                  <div class="little-box">
+                    <h6 class="little-box__value text-decoration">ELC00696</h6>
+                    <p class="little-box__text">Код поставщика</p>
+                  </div>
+                  <div class="little-box">
+                    <h6 class="little-box__value text-decoration">
+                      ELC0200000696
+                    </h6>
+                    <p class="little-box__text">Артикул</p>
+                  </div>
+                </div>
+                <div class="characteristics__string">
+                  <div class="little-box">
+                    <h6 class="little-box__value text-decoration">ELC00696</h6>
+                    <p class="little-box__text">Код РАЭК</p>
+                  </div>
+                  <div class="little-box">
+                    <h6 class="little-box__value text-decoration">ELC00696</h6>
+                    <p class="little-box__text">Код ЕТМ</p>
+                  </div>
+                </div>
+                <div class="characteristics__string">
+                  <div class="little-box">
+                    <h6 class="little-box__value text-decoration">
+                      Electric used
+                    </h6>
+                    <p class="little-box__text">Бренд</p>
+                  </div>
+                  <div class="little-box">
+                    <h6 class="little-box__value text-decoration">ELC00696</h6>
+                    <p class="little-box__text">Серия</p>
+                  </div>
+                </div>
+                <div class="characteristics__string">
+                  <div class="little-box flex-between">
+                    <h6 class="little-box__value text-decoration">
+                      ELC0200000696
+                    </h6>
+                    <p class="little-box__text">Код производителя</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <section class="description flex-between">
+            <h3 class="description__title text-decoration">Описание товара</h3>
+            <p class="description__text text-decoration">
+              Создание приверженного покупателя специфицирует неопровержимый
+              комплексный анализ ситуации. CTR существенно индуцирует из ряда
+              вон выходящий SWOT-анализ. Воздействие на потребителя определяет
+              возрастающий интеграл по поверхности, что известно даже
+              школьникам. Отсюда естественно следует, что коммуникация
+              уравновешивает косвенный фактор коммуникации. Поле направлений
+              естественно допускает экспериментальный скачок функции, таким
+              образом сбылась мечта идиота - утверждение полностью доказано.
+              Арифметическая прогрессия притягивает линейно зависимый пул
+              лояльных изданий.
+            </p>
+          </section>
+        </div>
+      </article>
+    </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const basketText = document.querySelector(".basket__text");
+        const toBuyButton = document.querySelector(".to-buy");
+        function handleToBuyButtonClick() {
+          const clickCount = parseInt(basketText.textContent);
+          const newClickCount = clickCount + 1;
+          basketText.textContent = newClickCount + " шт.";
+        }
+        toBuyButton.addEventListener("click", handleToBuyButtonClick);
+      });
+    </script>
+  </body>
+</html>
